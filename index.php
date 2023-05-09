@@ -40,7 +40,7 @@
     <br>
 
     <!-- Image -->
-    <img src="./images/Factorial-in-C.png" alt="Factorials" width="400" length="400">
+    <img src="./images/Factorial-in-C.png" alt="Factorials" width="400" length="600">
     <br>
 
     <!-- Iframe for factorial to be displayed -->

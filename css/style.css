@@ -1,0 +1,23 @@
+/* Created by: ZoiaB
+* Created on: May 2023
+* This CSS file defines the style for index.php
+* ICS2O-Unit5-03-PHP-Factorial
+*/
+
+body {
+  width: 80%;
+  margin: 5% 10%;
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #f9da6c;
+  padding: 10px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  padding: 30px;
+  background-color: #e6a800;
+}
+
+iframe {
+  background-color: #e66f00;

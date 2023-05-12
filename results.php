@@ -2,7 +2,7 @@
 
 //initializing variables
 $counter = 1;
-$facAnswer = 1;
+$factorialResult = 1;
 
 //getting user input for number
 $userNum = $_POST['number'];
@@ -21,12 +21,12 @@ else if ($userNum < 0) {
 else {
   //using a do...while loop to find factorial of inputted number
   do {
-    $facAnswer = $facAnswer * $counter;
+    $factorialResult = $factorialResult * $counter;
     $counter = $counter + 1;
   } while ($counter <= $userNum);
 
   //displaying factorial to the screen
-  echo "The factorial of your inputted number (!" . $userNum . ") = " . $facAnswer . ".";
+  echo "The factorial of your inputted number (!" . $userNum . ") = " . $factorialResult . ".";
 }
 
 ?>

@@ -32,19 +32,21 @@
       ?>
 
     <!-- Form for user input -->
-    <form action="./factorial.php" method="post" target="results">
-      <label for="number">Enter a whole number:</label>
-        <input type="number" step="1" min="0" name="number" placeholder="A whole number..."><br><br>
+    <form action="./results.php" method="post" target="results">
+      <label for="number">Enter a number:</label>
+        <input type="number" step="1" name="number" placeholder="A whole number..."><br><br>
         <input type="submit" value="Calculate Factorial" id="styled-button" button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent">
     </form>
-    <br>
-
-    <!-- Image -->
-    <img src="./images/Factorial-in-C.png" alt="Factorials" width="400" length="600">
     <br>
 
     <!-- Iframe for factorial to be displayed -->
     <br>
     <iframe id="results" name="results"></iframe>
+    <br>
+
+    <!-- Image -->
+    <img src="./images/Factorial-in-C.png" alt="Factorials" width="400" length="600">
+    <br>
+    
   </body>
 </html>

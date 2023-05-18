@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-ca">
   <head>
-
+    
     <!-- Metadata -->
     <meta charset="utf-8">
     <meta name="description" content="PHP Factorials Webpage">
@@ -19,17 +19,17 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.light_blue-cyan.min.css" />
 
-    <!-- Title -->
+    <!-- Title and header -->
     <title>PHP Factorials Webpage</title>
   </head>
   <body>
     <?php echo "<h1>PHP Factorials Webpage</h1>"; ?>
 
-    <!-- Div for styled background -->
-      <?php
-      echo "<p>Input a number below, and we will use a  DO... WHILE loop to give you the factorial of your number.</p>";
-      echo "<h3>Your Input</h3>";
-      ?>
+    <!-- Text -->
+    <?php
+    echo "<p>Input a number below, and we will use a  DO... WHILE loop to give you the factorial of your number.</p>";
+    echo "<h3>Your Input</h3>";
+    ?>
 
     <!-- Form for user input -->
     <form action="./results.php" method="post" target="results">
@@ -47,6 +47,5 @@
     <!-- Image -->
     <img src="./images/Factorial-in-C.png" alt="Factorials" width="400" length="600">
     <br>
-    
   </body>
 </html>
